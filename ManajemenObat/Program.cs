@@ -28,7 +28,7 @@ namespace PraktikumADOConsole
                 Console.WriteLine("11. Tampilkan Data Apoteker");
                 Console.WriteLine("12. Hapus Data Apoteker");
                 Console.WriteLine("13. Keluar");
-                Console.Write("Pilih menu (1-4): ");
+                Console.Write("Pilih menu (1-13): ");
 
                 string pilihan = Console.ReadLine();
                 switch (pilihan)
@@ -49,12 +49,12 @@ namespace PraktikumADOConsole
                         Console.WriteLine("Pilihan tidak valid, coba lagi!");
                         break;
                 }
-
+                // Struktur dasar aplikasi belum di diskusikan lebih lanjut
                 Console.WriteLine("\nTekan ENTER untuk kembali ke menu utama...");
                 Console.ReadLine();
             }
         }
-
+        // CRUD untuk data obat
         static void InsertData()
         {
             Console.Write("Masukkan ID Obat: ");
